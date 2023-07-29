@@ -750,3 +750,25 @@ p{
         padding-right: 0px !important;
     }
 }
+
+.icons{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    flex-direction: row !important;
+    
+}
+
+.icons img{
+    width: 20px;
+    margin-top: 10px;
+
+
+}
+
+@media (max-width:500px) {
+    .icons img{
+        width: 17px;
+    }
+}
